@@ -1,0 +1,18 @@
+{
+  "name": "sinumerik-usb-flash",
+  "main": "./lib/sinumerik-usb-flash",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "sinumerik-usb-flash:toggle"
+  },
+  "repository": "https://github.com/atom/sinumerik-usb-flash",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "drivelist": "^11.2.2"
+  }
+}

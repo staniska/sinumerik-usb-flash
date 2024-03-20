@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sinumerik-usb-flash",
+        "command": "sinumerik-usb-flash:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sinumerik-usb-flash",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sinumerik-usb-flash:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
