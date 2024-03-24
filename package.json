@@ -1,7 +1,7 @@
 {
   "name": "sinumerik-usb-flash",
   "main": "./lib/sinumerik-usb-flash",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
@@ -13,6 +13,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "drivelist": "^11.2.2"
+    "drivelist": "^11.2.2",
+    "eject-media": "^0.0.3",
+    "umount": "^1.1.6"
   }
 }
